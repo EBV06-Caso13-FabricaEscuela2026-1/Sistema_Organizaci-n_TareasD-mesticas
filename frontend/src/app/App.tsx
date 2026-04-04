@@ -4,13 +4,7 @@ import { TaskListScreen } from './screens/TaskListScreen';
 import { CreateTaskScreen } from './screens/CreateTaskScreen';
 import { TaskDetailScreen } from './screens/TaskDetailScreen';
 import { Toast } from './components/Toast';
-import { crearTarea, obtenerDetalleTarea } from '../api/tareas';
-import { ApiError } from '../api/client';
-import {
-  mapFormCreacionToCrearTareaRequest,
-  mapTareaResponseToTaskUi,
-  type TaskUi,
-} from '../mappers/tareaMapper';
+import { buildTaskUiFromForm, type TaskUi } from '../mappers/tareaMapper';
 
 type Screen = 'createGroup' | 'taskList' | 'createTask' | 'taskDetail';
 type TaskStatus = 'pendiente' | 'en proceso' | 'terminada';
@@ -44,7 +38,7 @@ export default function App() {
     setCurrentScreen('createTask');
   };
 
-  const handleTaskCreated = async (taskData: {
+  const handleTaskCreated = (taskData: {
     name: string;
     description: string;
     dueDate: string;
@@ -54,41 +48,23 @@ export default function App() {
       showErrorToast('No hay grupo seleccionado');
       return;
     }
-    try {
-      const body = mapFormCreacionToCrearTareaRequest(
-        {
-          name: taskData.name,
-          description: taskData.description,
-          dueDate: taskData.dueDate,
-        },
-        grupoId
-      );
-      const res = await crearTarea(body);
-      const task = mapTareaResponseToTaskUi(res);
-      setTasks((prev) => [...prev, task]);
-      setCurrentScreen('taskList');
-    } catch (e) {
-      const msg = e instanceof ApiError ? e.message : 'No se pudo crear la tarea';
-      showErrorToast(msg);
-    }
+    const task = buildTaskUiFromForm(taskData);
+    setTasks((prev) => [...prev, task]);
+    setCurrentScreen('taskList');
   };
 
-  const handleTaskClick = async (taskId: string) => {
+  const handleTaskClick = (taskId: string) => {
     if (!grupoId) {
       showErrorToast('No hay grupo seleccionado');
       return;
     }
-    const local = tasks.find((t) => t.id === taskId);
-    try {
-      const dto = await obtenerDetalleTarea(taskId, grupoId);
-      const task = mapTareaResponseToTaskUi(dto);
-      const merged: TaskUi = { ...task, status: local?.status ?? task.status };
-      setDetailTask(merged);
-      setCurrentScreen('taskDetail');
-    } catch (e) {
-      const msg = e instanceof ApiError ? e.message : 'No se pudo cargar la tarea';
-      showErrorToast(msg);
+    const task = tasks.find((t) => t.id === taskId);
+    if (!task) {
+      showErrorToast('No se encontró la tarea');
+      return;
     }
+    setDetailTask(task);
+    setCurrentScreen('taskDetail');
   };
 
   const handleStatusChange = (taskId: string, newStatus: TaskStatus) => {

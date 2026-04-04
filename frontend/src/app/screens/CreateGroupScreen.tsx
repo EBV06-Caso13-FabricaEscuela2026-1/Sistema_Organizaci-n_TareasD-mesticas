@@ -3,8 +3,15 @@ import { Users } from 'lucide-react';
 import { Button } from '../components/Button';
 import { Input } from '../components/Input';
 import { Modal } from '../components/Modal';
-import { crearGrupo } from '../../api/grupos';
-import { mapNombreGrupoToCrearRequest } from '../../mappers/grupoMapper';
+
+function generarCodigoAcceso(): string {
+  const chars = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789';
+  let code = '';
+  for (let i = 0; i < 6; i++) {
+    code += chars[Math.floor(Math.random() * chars.length)];
+  }
+  return code;
+}
 
 interface CreateGroupScreenProps {
   onGroupCreated: (groupName: string, groupCode: string, grupoId: string) => void;
@@ -47,10 +54,9 @@ export function CreateGroupScreen({ onGroupCreated, onCancel, isAdmin }: CreateG
     setSubmitting(true);
     setError('');
     try {
-      const body = mapNombreGrupoToCrearRequest(groupName);
-      const res = await crearGrupo(body);
-      setGeneratedCode(res.codigoAcceso);
-      setPendingGrupoId(res.id);
+      await new Promise((r) => setTimeout(r, 300));
+      setGeneratedCode(generarCodigoAcceso());
+      setPendingGrupoId(crypto.randomUUID());
       setShowSuccessModal(true);
     } catch (e) {
       const msg = e instanceof Error ? e.message : 'No se pudo crear el grupo';
