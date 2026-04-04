@@ -1,0 +1,7 @@
+node_modules
+dist
+*.local
+
+# Variables locales (Vercel usa su panel para producción)
+.env.local
+.env.*.local

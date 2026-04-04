@@ -1,0 +1,7 @@
+.DS_Store
+Thumbs.db
+*.log
+
+# Secretos y entornos locales (no subir claves)
+.env
+.env.*.local

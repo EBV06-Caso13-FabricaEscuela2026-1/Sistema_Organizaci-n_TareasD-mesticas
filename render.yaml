@@ -1,0 +1,12 @@
+# Blueprint opcional de Render: New Blueprint → conecta este repositorio.
+# Ajusta el nombre del servicio si lo deseas.
+services:
+  - type: web
+    name: sistema-organizacion-api
+    runtime: docker
+    plan: free
+    dockerfilePath: ./backend/caso13-main/Dockerfile
+    dockerContext: ./backend/caso13-main
+    envVars:
+      - key: SPRING_PROFILES_ACTIVE
+        value: prod
