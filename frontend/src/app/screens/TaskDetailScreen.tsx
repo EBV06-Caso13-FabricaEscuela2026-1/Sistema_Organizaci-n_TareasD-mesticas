@@ -52,7 +52,7 @@ export function TaskDetailScreen({ task, onBack }: TaskDetailScreenProps) {
             Estado
           </label>
           <div>
-            <StatusBadge status="pendiente" />
+            <StatusBadge status={task.status} />
           </div>
         </div>
 

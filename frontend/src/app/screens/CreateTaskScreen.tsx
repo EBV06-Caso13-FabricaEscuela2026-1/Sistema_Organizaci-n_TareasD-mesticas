@@ -12,12 +12,13 @@ interface CreateTaskScreenProps {
     description: string;
     dueDate: string;
     assignedTo: string;
-  }) => void;
+  }) => void | Promise<void>;
   existingTaskNames: string[];
   members: string[];
 }
 
 export function CreateTaskScreen({ onBack, onTaskCreated, existingTaskNames, members }: CreateTaskScreenProps) {
+  const [submitting, setSubmitting] = useState(false);
   const [taskName, setTaskName] = useState('');
   const [description, setDescription] = useState('');
   const [dueDate, setDueDate] = useState('');
@@ -84,7 +85,7 @@ export function CreateTaskScreen({ onBack, onTaskCreated, existingTaskNames, mem
     setErrors(prev => ({ ...prev, dueDate: error || undefined }));
   };
 
-  const handleSubmit = () => {
+  const handleSubmit = async () => {
     const nameError = validateTaskName(taskName);
     const descError = validateDescription(description);
     const dateError = validateDate(dueDate);
@@ -98,12 +99,17 @@ export function CreateTaskScreen({ onBack, onTaskCreated, existingTaskNames, mem
       return;
     }
 
-    onTaskCreated({
-      name: taskName,
-      description,
-      dueDate,
-      assignedTo,
-    });
+    setSubmitting(true);
+    try {
+      await onTaskCreated({
+        name: taskName,
+        description,
+        dueDate,
+        assignedTo,
+      });
+    } finally {
+      setSubmitting(false);
+    }
   };
 
   return (
@@ -169,7 +175,9 @@ export function CreateTaskScreen({ onBack, onTaskCreated, existingTaskNames, mem
       </div>
 
       <div className="px-6 pb-6">
-        <Button onClick={handleSubmit}>+ Crear Tarea</Button>
+        <Button onClick={handleSubmit} disabled={submitting}>
+          {submitting ? 'Creando…' : '+ Crear Tarea'}
+        </Button>
       </div>
 
       <div className="fixed bottom-20 right-6 w-12 h-12 bg-[#00BFA5] rounded-full flex items-center justify-center text-white font-bold shadow-lg">
