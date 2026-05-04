@@ -1,0 +1,524 @@
+Picked up JAVA_TOOL_OPTIONS: -Dstdout.encoding=UTF-8 -Dstderr.encoding=UTF-8
+[ERROR] COMPILATION ERROR : 
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/GrupoFamiliarController.java:[19,8] class TareaController is public, should be declared in a file named TareaController.java
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/TareaController.java:[16,8] duplicate class: sistema_organizacion.sistema.adapters.controllers.TareaController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/dto/request/RegistroRequest.java:[24,8] class LoginRequest is public, should be declared in a file named LoginRequest.java
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/dto/request/RegistroRequest.java:[35,8] class IngresarGrupoRequest is public, should be declared in a file named IngresarGrupoRequest.java
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/dto/request/RegistroRequest.java:[43,8] class ModificarTareaRequest is public, should be declared in a file named ModificarTareaRequest.java
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/dto/response/UsuarioResponse.java:[21,8] class SesionResponse is public, should be declared in a file named SesionResponse.java
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/entities/RolUsuario.java:[8,8] enum EstadoTarea is public, should be declared in a file named EstadoTarea.java
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/entities/RolUsuario.java:[15,8] enum EstadoMiembro is public, should be declared in a file named EstadoMiembro.java
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/entities/Tarea.java:[92,23] variable fechaLimite is already defined in class sistema_organizacion.sistema.entities.Tarea
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/entities/Tarea.java:[93,25] variable estado is already defined in class sistema_organizacion.sistema.entities.Tarea
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/entities/Tarea.java:[94,20] variable grupoId is already defined in class sistema_organizacion.sistema.entities.Tarea
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/entities/Tarea.java:[95,20] variable miembroAsignadoId is already defined in class sistema_organizacion.sistema.entities.Tarea
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/entities/Tarea.java:[96,20] variable nombreMiembroAsignado is already defined in class sistema_organizacion.sistema.entities.Tarea
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/entities/Tarea.java:[98,12] constructor Tarea(java.lang.String,java.lang.String,java.lang.String,java.time.LocalDate,java.lang.String) is already defined in class sistema_organizacion.sistema.entities.Tarea
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/entities/Tarea.java:[112,17] method actualizar(java.lang.String,java.lang.String,java.time.LocalDate) is already defined in class sistema_organizacion.sistema.entities.Tarea
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/entities/Tarea.java:[132,17] method asignarMiembro(java.lang.String,java.lang.String) is already defined in class sistema_organizacion.sistema.entities.Tarea
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/entities/Tarea.java:[137,18] method validarTitulo(java.lang.String) is already defined in class sistema_organizacion.sistema.entities.Tarea
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/entities/Tarea.java:[147,18] method validarDescripcion(java.lang.String) is already defined in class sistema_organizacion.sistema.entities.Tarea
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/entities/Tarea.java:[156,18] method validarFechaLimite(java.time.LocalDate) is already defined in class sistema_organizacion.sistema.entities.Tarea
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/GrupoFamiliarController.java:[21,19] cannot find symbol
+  symbol:   class CrearTareaUseCase
+  location: class sistema_organizacion.sistema.adapters.controllers.TareaController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/GrupoFamiliarController.java:[22,19] cannot find symbol
+  symbol:   class VerDetalleTareaUseCase
+  location: class sistema_organizacion.sistema.adapters.controllers.TareaController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/GrupoFamiliarController.java:[23,19] cannot find symbol
+  symbol:   class ModificarTareaUseCase
+  location: class sistema_organizacion.sistema.adapters.controllers.TareaController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/GrupoFamiliarController.java:[24,19] cannot find symbol
+  symbol:   class TareaPresenter
+  location: class sistema_organizacion.sistema.adapters.controllers.TareaController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/GrupoFamiliarController.java:[26,28] cannot find symbol
+  symbol:   class CrearTareaUseCase
+  location: class sistema_organizacion.sistema.adapters.controllers.TareaController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/GrupoFamiliarController.java:[27,29] cannot find symbol
+  symbol:   class VerDetalleTareaUseCase
+  location: class sistema_organizacion.sistema.adapters.controllers.TareaController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/GrupoFamiliarController.java:[28,29] cannot find symbol
+  symbol:   class ModificarTareaUseCase
+  location: class sistema_organizacion.sistema.adapters.controllers.TareaController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/GrupoFamiliarController.java:[29,29] cannot find symbol
+  symbol:   class TareaPresenter
+  location: class sistema_organizacion.sistema.adapters.controllers.TareaController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/GrupoFamiliarController.java:[39,26] cannot find symbol
+  symbol:   class CrearTareaRequest
+  location: class sistema_organizacion.sistema.adapters.controllers.TareaController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/GrupoFamiliarController.java:[38,27] cannot find symbol
+  symbol:   class TareaResponse
+  location: class sistema_organizacion.sistema.adapters.controllers.TareaController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/GrupoFamiliarController.java:[53,27] cannot find symbol
+  symbol:   class TareaResponse
+  location: class sistema_organizacion.sistema.adapters.controllers.TareaController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/GrupoFamiliarController.java:[65,26] cannot find symbol
+  symbol:   class ModificarTareaRequest
+  location: class sistema_organizacion.sistema.adapters.controllers.TareaController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/GrupoFamiliarController.java:[63,27] cannot find symbol
+  symbol:   class TareaResponse
+  location: class sistema_organizacion.sistema.adapters.controllers.TareaController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/UsuarioController.java:[1,2] cannot find symbol
+  symbol: class RestController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/UsuarioController.java:[2,2] cannot find symbol
+  symbol: class RequestMapping
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/UsuarioController.java:[5,19] cannot find symbol
+  symbol:   class RegistrarUsuarioUseCase
+  location: class UsuarioController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/UsuarioController.java:[6,19] cannot find symbol
+  symbol:   class IniciarSesionUseCase
+  location: class UsuarioController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/presenters/UsuarioPresenter.java:[1,2] cannot find symbol
+  symbol: class Component
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/UsuarioController.java:[9,30] cannot find symbol
+  symbol:   class RegistrarUsuarioUseCase
+  location: class UsuarioController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/UsuarioController.java:[10,31] cannot find symbol
+  symbol:   class IniciarSesionUseCase
+  location: class UsuarioController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/UsuarioController.java:[19,12] cannot find symbol
+  symbol:   class ResponseEntity
+  location: class UsuarioController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/UsuarioController.java:[37,12] cannot find symbol
+  symbol:   class ResponseEntity
+  location: class UsuarioController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/presenters/UsuarioPresenter.java:[4,39] cannot find symbol
+  symbol:   class Usuario
+  location: class UsuarioPresenter
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/presenters/UsuarioPresenter.java:[15,44] cannot find symbol
+  symbol:   class SesionResult
+  location: class UsuarioPresenter
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/dto/request/RegistroRequest.java:[46,13] cannot find symbol
+  symbol:   class LocalDate
+  location: class ModificarTareaRequest
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/dto/request/RegistroRequest.java:[52,12] cannot find symbol
+  symbol:   class LocalDate
+  location: class ModificarTareaRequest
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/dto/request/RegistroRequest.java:[53,32] cannot find symbol
+  symbol:   class LocalDate
+  location: class ModificarTareaRequest
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/exception/GlobalExceptionHandler.java:[21,13] cannot find symbol
+  symbol:   class CorreoInvalidoException
+  location: class sistema_organizacion.sistema.adapters.exception.GlobalExceptionHandler
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/exception/GlobalExceptionHandler.java:[28,13] cannot find symbol
+  symbol:   class ContrasenaInvalidaException
+  location: class sistema_organizacion.sistema.adapters.exception.GlobalExceptionHandler
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/exception/GlobalExceptionHandler.java:[35,13] cannot find symbol
+  symbol:   class RolNoSeleccionadoException
+  location: class sistema_organizacion.sistema.adapters.exception.GlobalExceptionHandler
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/exception/GlobalExceptionHandler.java:[42,13] cannot find symbol
+  symbol:   class AdministradorYaExisteException
+  location: class sistema_organizacion.sistema.adapters.exception.GlobalExceptionHandler
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/exception/GlobalExceptionHandler.java:[49,13] cannot find symbol
+  symbol:   class CredencialesInvalidasException
+  location: class sistema_organizacion.sistema.adapters.exception.GlobalExceptionHandler
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/exception/GlobalExceptionHandler.java:[56,13] cannot find symbol
+  symbol:   class UsuarioNoRegistradoException
+  location: class sistema_organizacion.sistema.adapters.exception.GlobalExceptionHandler
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/exception/GlobalExceptionHandler.java:[63,13] cannot find symbol
+  symbol:   class CamposObligatoriosException
+  location: class sistema_organizacion.sistema.adapters.exception.GlobalExceptionHandler
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/exception/GlobalExceptionHandler.java:[70,13] cannot find symbol
+  symbol:   class MiembroYaEnGrupoException
+  location: class sistema_organizacion.sistema.adapters.exception.GlobalExceptionHandler
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/exception/GlobalExceptionHandler.java:[77,13] cannot find symbol
+  symbol:   class CodigoAccesoInvalidoException
+  location: class sistema_organizacion.sistema.adapters.exception.GlobalExceptionHandler
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/infrastructure/HogarApplication.java:[3,2] cannot find symbol
+  symbol: class SpringBootApplication
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/infrastructure/config/BeanConfig.java:[20,12] cannot find symbol
+  symbol:   class RegistrarUsuarioUseCase
+  location: class sistema_organizacion.sistema.infrastructure.config.BeanConfig
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/infrastructure/config/BeanConfig.java:[26,12] cannot find symbol
+  symbol:   class IniciarSesionUseCase
+  location: class sistema_organizacion.sistema.infrastructure.config.BeanConfig
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/infrastructure/config/BeanConfig.java:[41,12] cannot find symbol
+  symbol:   class IngresarGrupoFamiliarUseCase
+  location: class sistema_organizacion.sistema.infrastructure.config.BeanConfig
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/infrastructure/config/BeanConfig.java:[67,12] cannot find symbol
+  symbol:   class ModificarTareaUseCase
+  location: class sistema_organizacion.sistema.infrastructure.config.BeanConfig
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/usecases/usuario/impl/IniciarSesionInteractor.java:[1,49] cannot find symbol
+  symbol: class IniciarSesionUseCase
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/usecases/usuario/impl/IniciarSesionInteractor.java:[3,19] cannot find symbol
+  symbol:   class UsuarioOutputPort
+  location: class IniciarSesionInteractor
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/usecases/usuario/impl/IniciarSesionInteractor.java:[5,36] cannot find symbol
+  symbol:   class UsuarioOutputPort
+  location: class IniciarSesionInteractor
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/usecases/usuario/impl/IniciarSesionInteractor.java:[10,34] cannot find symbol
+  symbol:   class IniciarSesionCommand
+  location: class IniciarSesionInteractor
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/usecases/usuario/impl/IniciarSesionInteractor.java:[10,12] cannot find symbol
+  symbol:   class SesionResult
+  location: class IniciarSesionInteractor
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/GrupoFamiliarController.java:[54,14] cannot find symbol
+  symbol:   class PathVariable
+  location: class sistema_organizacion.sistema.adapters.controllers.TareaController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/GrupoFamiliarController.java:[55,14] cannot find symbol
+  symbol:   class RequestParam
+  location: class sistema_organizacion.sistema.adapters.controllers.TareaController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/GrupoFamiliarController.java:[52,6] cannot find symbol
+  symbol:   class GetMapping
+  location: class sistema_organizacion.sistema.adapters.controllers.TareaController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/GrupoFamiliarController.java:[64,14] cannot find symbol
+  symbol:   class PathVariable
+  location: class sistema_organizacion.sistema.adapters.controllers.TareaController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/GrupoFamiliarController.java:[62,6] cannot find symbol
+  symbol:   class PutMapping
+  location: class sistema_organizacion.sistema.adapters.controllers.TareaController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/UsuarioController.java:[20,14] cannot find symbol
+  symbol:   class RequestBody
+  location: class UsuarioController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/UsuarioController.java:[18,6] cannot find symbol
+  symbol:   class PostMapping
+  location: class UsuarioController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/UsuarioController.java:[38,14] cannot find symbol
+  symbol:   class RequestBody
+  location: class UsuarioController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/UsuarioController.java:[36,6] cannot find symbol
+  symbol:   class PostMapping
+  location: class UsuarioController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/exception/GlobalExceptionHandler.java:[19,23] cannot find symbol
+  symbol:   class CorreoInvalidoException
+  location: class sistema_organizacion.sistema.adapters.exception.GlobalExceptionHandler
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/exception/GlobalExceptionHandler.java:[26,23] cannot find symbol
+  symbol:   class ContrasenaInvalidaException
+  location: class sistema_organizacion.sistema.adapters.exception.GlobalExceptionHandler
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/exception/GlobalExceptionHandler.java:[33,23] cannot find symbol
+  symbol:   class RolNoSeleccionadoException
+  location: class sistema_organizacion.sistema.adapters.exception.GlobalExceptionHandler
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/exception/GlobalExceptionHandler.java:[40,23] cannot find symbol
+  symbol:   class AdministradorYaExisteException
+  location: class sistema_organizacion.sistema.adapters.exception.GlobalExceptionHandler
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/exception/GlobalExceptionHandler.java:[47,23] cannot find symbol
+  symbol:   class CredencialesInvalidasException
+  location: class sistema_organizacion.sistema.adapters.exception.GlobalExceptionHandler
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/exception/GlobalExceptionHandler.java:[54,23] cannot find symbol
+  symbol:   class UsuarioNoRegistradoException
+  location: class sistema_organizacion.sistema.adapters.exception.GlobalExceptionHandler
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/exception/GlobalExceptionHandler.java:[61,23] cannot find symbol
+  symbol:   class CamposObligatoriosException
+  location: class sistema_organizacion.sistema.adapters.exception.GlobalExceptionHandler
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/exception/GlobalExceptionHandler.java:[68,23] cannot find symbol
+  symbol:   class MiembroYaEnGrupoException
+  location: class sistema_organizacion.sistema.adapters.exception.GlobalExceptionHandler
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/exception/GlobalExceptionHandler.java:[75,23] cannot find symbol
+  symbol:   class CodigoAccesoInvalidoException
+  location: class sistema_organizacion.sistema.adapters.exception.GlobalExceptionHandler
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/GrupoFamiliarController.java:[42,9] cannot find symbol
+  symbol:   class CrearTareaCommand
+  location: class sistema_organizacion.sistema.adapters.controllers.TareaController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/GrupoFamiliarController.java:[42,41] cannot find symbol
+  symbol:   class CrearTareaCommand
+  location: class sistema_organizacion.sistema.adapters.controllers.TareaController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/GrupoFamiliarController.java:[46,9] cannot find symbol
+  symbol:   class Tarea
+  location: class sistema_organizacion.sistema.adapters.controllers.TareaController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/GrupoFamiliarController.java:[57,9] cannot find symbol
+  symbol:   class Tarea
+  location: class sistema_organizacion.sistema.adapters.controllers.TareaController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/GrupoFamiliarController.java:[68,9] cannot find symbol
+  symbol:   class ModificarTareaCommand
+  location: class sistema_organizacion.sistema.adapters.controllers.TareaController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/GrupoFamiliarController.java:[68,45] cannot find symbol
+  symbol:   class ModificarTareaCommand
+  location: class sistema_organizacion.sistema.adapters.controllers.TareaController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/GrupoFamiliarController.java:[74,9] cannot find symbol
+  symbol:   class Tarea
+  location: class sistema_organizacion.sistema.adapters.controllers.TareaController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/UsuarioController.java:[22,9] cannot find symbol
+  symbol:   class RegistrarUsuarioCommand
+  location: class UsuarioController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/UsuarioController.java:[22,47] cannot find symbol
+  symbol:   class RegistrarUsuarioCommand
+  location: class UsuarioController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/UsuarioController.java:[30,9] cannot find symbol
+  symbol:   class Usuario
+  location: class UsuarioController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/UsuarioController.java:[31,38] cannot find symbol
+  symbol:   variable HttpStatus
+  location: class UsuarioController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/UsuarioController.java:[31,16] cannot find symbol
+  symbol:   variable ResponseEntity
+  location: class UsuarioController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/UsuarioController.java:[40,9] cannot find symbol
+  symbol:   class IniciarSesionCommand
+  location: class UsuarioController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/UsuarioController.java:[40,44] cannot find symbol
+  symbol:   class IniciarSesionCommand
+  location: class UsuarioController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/UsuarioController.java:[44,9] cannot find symbol
+  symbol:   class SesionResult
+  location: class UsuarioController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/UsuarioController.java:[45,16] cannot find symbol
+  symbol:   variable ResponseEntity
+  location: class UsuarioController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/entities/GrupoFamiliar.java:[31,23] cannot find symbol
+  symbol:   class NombreGrupoInvalidoException
+  location: class sistema_organizacion.sistema.entities.GrupoFamiliar
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.14.1:compile (default-compile) on project sistema: Compilation failure: Compilation failure: 
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/GrupoFamiliarController.java:[19,8] class TareaController is public, should be declared in a file named TareaController.java
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/TareaController.java:[16,8] duplicate class: sistema_organizacion.sistema.adapters.controllers.TareaController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/dto/request/RegistroRequest.java:[24,8] class LoginRequest is public, should be declared in a file named LoginRequest.java
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/dto/request/RegistroRequest.java:[35,8] class IngresarGrupoRequest is public, should be declared in a file named IngresarGrupoRequest.java
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/dto/request/RegistroRequest.java:[43,8] class ModificarTareaRequest is public, should be declared in a file named ModificarTareaRequest.java
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/dto/response/UsuarioResponse.java:[21,8] class SesionResponse is public, should be declared in a file named SesionResponse.java
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/entities/RolUsuario.java:[8,8] enum EstadoTarea is public, should be declared in a file named EstadoTarea.java
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/entities/RolUsuario.java:[15,8] enum EstadoMiembro is public, should be declared in a file named EstadoMiembro.java
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/entities/Tarea.java:[92,23] variable fechaLimite is already defined in class sistema_organizacion.sistema.entities.Tarea
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/entities/Tarea.java:[93,25] variable estado is already defined in class sistema_organizacion.sistema.entities.Tarea
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/entities/Tarea.java:[94,20] variable grupoId is already defined in class sistema_organizacion.sistema.entities.Tarea
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/entities/Tarea.java:[95,20] variable miembroAsignadoId is already defined in class sistema_organizacion.sistema.entities.Tarea
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/entities/Tarea.java:[96,20] variable nombreMiembroAsignado is already defined in class sistema_organizacion.sistema.entities.Tarea
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/entities/Tarea.java:[98,12] constructor Tarea(java.lang.String,java.lang.String,java.lang.String,java.time.LocalDate,java.lang.String) is already defined in class sistema_organizacion.sistema.entities.Tarea
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/entities/Tarea.java:[112,17] method actualizar(java.lang.String,java.lang.String,java.time.LocalDate) is already defined in class sistema_organizacion.sistema.entities.Tarea
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/entities/Tarea.java:[132,17] method asignarMiembro(java.lang.String,java.lang.String) is already defined in class sistema_organizacion.sistema.entities.Tarea
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/entities/Tarea.java:[137,18] method validarTitulo(java.lang.String) is already defined in class sistema_organizacion.sistema.entities.Tarea
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/entities/Tarea.java:[147,18] method validarDescripcion(java.lang.String) is already defined in class sistema_organizacion.sistema.entities.Tarea
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/entities/Tarea.java:[156,18] method validarFechaLimite(java.time.LocalDate) is already defined in class sistema_organizacion.sistema.entities.Tarea
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/GrupoFamiliarController.java:[21,19] cannot find symbol
+[ERROR]   symbol:   class CrearTareaUseCase
+[ERROR]   location: class sistema_organizacion.sistema.adapters.controllers.TareaController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/GrupoFamiliarController.java:[22,19] cannot find symbol
+[ERROR]   symbol:   class VerDetalleTareaUseCase
+[ERROR]   location: class sistema_organizacion.sistema.adapters.controllers.TareaController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/GrupoFamiliarController.java:[23,19] cannot find symbol
+[ERROR]   symbol:   class ModificarTareaUseCase
+[ERROR]   location: class sistema_organizacion.sistema.adapters.controllers.TareaController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/GrupoFamiliarController.java:[24,19] cannot find symbol
+[ERROR]   symbol:   class TareaPresenter
+[ERROR]   location: class sistema_organizacion.sistema.adapters.controllers.TareaController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/GrupoFamiliarController.java:[26,28] cannot find symbol
+[ERROR]   symbol:   class CrearTareaUseCase
+[ERROR]   location: class sistema_organizacion.sistema.adapters.controllers.TareaController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/GrupoFamiliarController.java:[27,29] cannot find symbol
+[ERROR]   symbol:   class VerDetalleTareaUseCase
+[ERROR]   location: class sistema_organizacion.sistema.adapters.controllers.TareaController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/GrupoFamiliarController.java:[28,29] cannot find symbol
+[ERROR]   symbol:   class ModificarTareaUseCase
+[ERROR]   location: class sistema_organizacion.sistema.adapters.controllers.TareaController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/GrupoFamiliarController.java:[29,29] cannot find symbol
+[ERROR]   symbol:   class TareaPresenter
+[ERROR]   location: class sistema_organizacion.sistema.adapters.controllers.TareaController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/GrupoFamiliarController.java:[39,26] cannot find symbol
+[ERROR]   symbol:   class CrearTareaRequest
+[ERROR]   location: class sistema_organizacion.sistema.adapters.controllers.TareaController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/GrupoFamiliarController.java:[38,27] cannot find symbol
+[ERROR]   symbol:   class TareaResponse
+[ERROR]   location: class sistema_organizacion.sistema.adapters.controllers.TareaController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/GrupoFamiliarController.java:[53,27] cannot find symbol
+[ERROR]   symbol:   class TareaResponse
+[ERROR]   location: class sistema_organizacion.sistema.adapters.controllers.TareaController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/GrupoFamiliarController.java:[65,26] cannot find symbol
+[ERROR]   symbol:   class ModificarTareaRequest
+[ERROR]   location: class sistema_organizacion.sistema.adapters.controllers.TareaController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/GrupoFamiliarController.java:[63,27] cannot find symbol
+[ERROR]   symbol:   class TareaResponse
+[ERROR]   location: class sistema_organizacion.sistema.adapters.controllers.TareaController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/UsuarioController.java:[1,2] cannot find symbol
+[ERROR]   symbol: class RestController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/UsuarioController.java:[2,2] cannot find symbol
+[ERROR]   symbol: class RequestMapping
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/UsuarioController.java:[5,19] cannot find symbol
+[ERROR]   symbol:   class RegistrarUsuarioUseCase
+[ERROR]   location: class UsuarioController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/UsuarioController.java:[6,19] cannot find symbol
+[ERROR]   symbol:   class IniciarSesionUseCase
+[ERROR]   location: class UsuarioController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/presenters/UsuarioPresenter.java:[1,2] cannot find symbol
+[ERROR]   symbol: class Component
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/UsuarioController.java:[9,30] cannot find symbol
+[ERROR]   symbol:   class RegistrarUsuarioUseCase
+[ERROR]   location: class UsuarioController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/UsuarioController.java:[10,31] cannot find symbol
+[ERROR]   symbol:   class IniciarSesionUseCase
+[ERROR]   location: class UsuarioController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/UsuarioController.java:[19,12] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: class UsuarioController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/UsuarioController.java:[37,12] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: class UsuarioController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/presenters/UsuarioPresenter.java:[4,39] cannot find symbol
+[ERROR]   symbol:   class Usuario
+[ERROR]   location: class UsuarioPresenter
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/presenters/UsuarioPresenter.java:[15,44] cannot find symbol
+[ERROR]   symbol:   class SesionResult
+[ERROR]   location: class UsuarioPresenter
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/dto/request/RegistroRequest.java:[46,13] cannot find symbol
+[ERROR]   symbol:   class LocalDate
+[ERROR]   location: class ModificarTareaRequest
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/dto/request/RegistroRequest.java:[52,12] cannot find symbol
+[ERROR]   symbol:   class LocalDate
+[ERROR]   location: class ModificarTareaRequest
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/dto/request/RegistroRequest.java:[53,32] cannot find symbol
+[ERROR]   symbol:   class LocalDate
+[ERROR]   location: class ModificarTareaRequest
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/exception/GlobalExceptionHandler.java:[21,13] cannot find symbol
+[ERROR]   symbol:   class CorreoInvalidoException
+[ERROR]   location: class sistema_organizacion.sistema.adapters.exception.GlobalExceptionHandler
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/exception/GlobalExceptionHandler.java:[28,13] cannot find symbol
+[ERROR]   symbol:   class ContrasenaInvalidaException
+[ERROR]   location: class sistema_organizacion.sistema.adapters.exception.GlobalExceptionHandler
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/exception/GlobalExceptionHandler.java:[35,13] cannot find symbol
+[ERROR]   symbol:   class RolNoSeleccionadoException
+[ERROR]   location: class sistema_organizacion.sistema.adapters.exception.GlobalExceptionHandler
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/exception/GlobalExceptionHandler.java:[42,13] cannot find symbol
+[ERROR]   symbol:   class AdministradorYaExisteException
+[ERROR]   location: class sistema_organizacion.sistema.adapters.exception.GlobalExceptionHandler
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/exception/GlobalExceptionHandler.java:[49,13] cannot find symbol
+[ERROR]   symbol:   class CredencialesInvalidasException
+[ERROR]   location: class sistema_organizacion.sistema.adapters.exception.GlobalExceptionHandler
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/exception/GlobalExceptionHandler.java:[56,13] cannot find symbol
+[ERROR]   symbol:   class UsuarioNoRegistradoException
+[ERROR]   location: class sistema_organizacion.sistema.adapters.exception.GlobalExceptionHandler
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/exception/GlobalExceptionHandler.java:[63,13] cannot find symbol
+[ERROR]   symbol:   class CamposObligatoriosException
+[ERROR]   location: class sistema_organizacion.sistema.adapters.exception.GlobalExceptionHandler
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/exception/GlobalExceptionHandler.java:[70,13] cannot find symbol
+[ERROR]   symbol:   class MiembroYaEnGrupoException
+[ERROR]   location: class sistema_organizacion.sistema.adapters.exception.GlobalExceptionHandler
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/exception/GlobalExceptionHandler.java:[77,13] cannot find symbol
+[ERROR]   symbol:   class CodigoAccesoInvalidoException
+[ERROR]   location: class sistema_organizacion.sistema.adapters.exception.GlobalExceptionHandler
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/infrastructure/HogarApplication.java:[3,2] cannot find symbol
+[ERROR]   symbol: class SpringBootApplication
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/infrastructure/config/BeanConfig.java:[20,12] cannot find symbol
+[ERROR]   symbol:   class RegistrarUsuarioUseCase
+[ERROR]   location: class sistema_organizacion.sistema.infrastructure.config.BeanConfig
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/infrastructure/config/BeanConfig.java:[26,12] cannot find symbol
+[ERROR]   symbol:   class IniciarSesionUseCase
+[ERROR]   location: class sistema_organizacion.sistema.infrastructure.config.BeanConfig
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/infrastructure/config/BeanConfig.java:[41,12] cannot find symbol
+[ERROR]   symbol:   class IngresarGrupoFamiliarUseCase
+[ERROR]   location: class sistema_organizacion.sistema.infrastructure.config.BeanConfig
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/infrastructure/config/BeanConfig.java:[67,12] cannot find symbol
+[ERROR]   symbol:   class ModificarTareaUseCase
+[ERROR]   location: class sistema_organizacion.sistema.infrastructure.config.BeanConfig
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/usecases/usuario/impl/IniciarSesionInteractor.java:[1,49] cannot find symbol
+[ERROR]   symbol: class IniciarSesionUseCase
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/usecases/usuario/impl/IniciarSesionInteractor.java:[3,19] cannot find symbol
+[ERROR]   symbol:   class UsuarioOutputPort
+[ERROR]   location: class IniciarSesionInteractor
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/usecases/usuario/impl/IniciarSesionInteractor.java:[5,36] cannot find symbol
+[ERROR]   symbol:   class UsuarioOutputPort
+[ERROR]   location: class IniciarSesionInteractor
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/usecases/usuario/impl/IniciarSesionInteractor.java:[10,34] cannot find symbol
+[ERROR]   symbol:   class IniciarSesionCommand
+[ERROR]   location: class IniciarSesionInteractor
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/usecases/usuario/impl/IniciarSesionInteractor.java:[10,12] cannot find symbol
+[ERROR]   symbol:   class SesionResult
+[ERROR]   location: class IniciarSesionInteractor
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/GrupoFamiliarController.java:[54,14] cannot find symbol
+[ERROR]   symbol:   class PathVariable
+[ERROR]   location: class sistema_organizacion.sistema.adapters.controllers.TareaController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/GrupoFamiliarController.java:[55,14] cannot find symbol
+[ERROR]   symbol:   class RequestParam
+[ERROR]   location: class sistema_organizacion.sistema.adapters.controllers.TareaController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/GrupoFamiliarController.java:[52,6] cannot find symbol
+[ERROR]   symbol:   class GetMapping
+[ERROR]   location: class sistema_organizacion.sistema.adapters.controllers.TareaController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/GrupoFamiliarController.java:[64,14] cannot find symbol
+[ERROR]   symbol:   class PathVariable
+[ERROR]   location: class sistema_organizacion.sistema.adapters.controllers.TareaController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/GrupoFamiliarController.java:[62,6] cannot find symbol
+[ERROR]   symbol:   class PutMapping
+[ERROR]   location: class sistema_organizacion.sistema.adapters.controllers.TareaController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/UsuarioController.java:[20,14] cannot find symbol
+[ERROR]   symbol:   class RequestBody
+[ERROR]   location: class UsuarioController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/UsuarioController.java:[18,6] cannot find symbol
+[ERROR]   symbol:   class PostMapping
+[ERROR]   location: class UsuarioController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/UsuarioController.java:[38,14] cannot find symbol
+[ERROR]   symbol:   class RequestBody
+[ERROR]   location: class UsuarioController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/UsuarioController.java:[36,6] cannot find symbol
+[ERROR]   symbol:   class PostMapping
+[ERROR]   location: class UsuarioController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/exception/GlobalExceptionHandler.java:[19,23] cannot find symbol
+[ERROR]   symbol:   class CorreoInvalidoException
+[ERROR]   location: class sistema_organizacion.sistema.adapters.exception.GlobalExceptionHandler
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/exception/GlobalExceptionHandler.java:[26,23] cannot find symbol
+[ERROR]   symbol:   class ContrasenaInvalidaException
+[ERROR]   location: class sistema_organizacion.sistema.adapters.exception.GlobalExceptionHandler
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/exception/GlobalExceptionHandler.java:[33,23] cannot find symbol
+[ERROR]   symbol:   class RolNoSeleccionadoException
+[ERROR]   location: class sistema_organizacion.sistema.adapters.exception.GlobalExceptionHandler
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/exception/GlobalExceptionHandler.java:[40,23] cannot find symbol
+[ERROR]   symbol:   class AdministradorYaExisteException
+[ERROR]   location: class sistema_organizacion.sistema.adapters.exception.GlobalExceptionHandler
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/exception/GlobalExceptionHandler.java:[47,23] cannot find symbol
+[ERROR]   symbol:   class CredencialesInvalidasException
+[ERROR]   location: class sistema_organizacion.sistema.adapters.exception.GlobalExceptionHandler
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/exception/GlobalExceptionHandler.java:[54,23] cannot find symbol
+[ERROR]   symbol:   class UsuarioNoRegistradoException
+[ERROR]   location: class sistema_organizacion.sistema.adapters.exception.GlobalExceptionHandler
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/exception/GlobalExceptionHandler.java:[61,23] cannot find symbol
+[ERROR]   symbol:   class CamposObligatoriosException
+[ERROR]   location: class sistema_organizacion.sistema.adapters.exception.GlobalExceptionHandler
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/exception/GlobalExceptionHandler.java:[68,23] cannot find symbol
+[ERROR]   symbol:   class MiembroYaEnGrupoException
+[ERROR]   location: class sistema_organizacion.sistema.adapters.exception.GlobalExceptionHandler
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/exception/GlobalExceptionHandler.java:[75,23] cannot find symbol
+[ERROR]   symbol:   class CodigoAccesoInvalidoException
+[ERROR]   location: class sistema_organizacion.sistema.adapters.exception.GlobalExceptionHandler
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/GrupoFamiliarController.java:[42,9] cannot find symbol
+[ERROR]   symbol:   class CrearTareaCommand
+[ERROR]   location: class sistema_organizacion.sistema.adapters.controllers.TareaController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/GrupoFamiliarController.java:[42,41] cannot find symbol
+[ERROR]   symbol:   class CrearTareaCommand
+[ERROR]   location: class sistema_organizacion.sistema.adapters.controllers.TareaController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/GrupoFamiliarController.java:[46,9] cannot find symbol
+[ERROR]   symbol:   class Tarea
+[ERROR]   location: class sistema_organizacion.sistema.adapters.controllers.TareaController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/GrupoFamiliarController.java:[57,9] cannot find symbol
+[ERROR]   symbol:   class Tarea
+[ERROR]   location: class sistema_organizacion.sistema.adapters.controllers.TareaController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/GrupoFamiliarController.java:[68,9] cannot find symbol
+[ERROR]   symbol:   class ModificarTareaCommand
+[ERROR]   location: class sistema_organizacion.sistema.adapters.controllers.TareaController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/GrupoFamiliarController.java:[68,45] cannot find symbol
+[ERROR]   symbol:   class ModificarTareaCommand
+[ERROR]   location: class sistema_organizacion.sistema.adapters.controllers.TareaController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/GrupoFamiliarController.java:[74,9] cannot find symbol
+[ERROR]   symbol:   class Tarea
+[ERROR]   location: class sistema_organizacion.sistema.adapters.controllers.TareaController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/UsuarioController.java:[22,9] cannot find symbol
+[ERROR]   symbol:   class RegistrarUsuarioCommand
+[ERROR]   location: class UsuarioController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/UsuarioController.java:[22,47] cannot find symbol
+[ERROR]   symbol:   class RegistrarUsuarioCommand
+[ERROR]   location: class UsuarioController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/UsuarioController.java:[30,9] cannot find symbol
+[ERROR]   symbol:   class Usuario
+[ERROR]   location: class UsuarioController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/UsuarioController.java:[31,38] cannot find symbol
+[ERROR]   symbol:   variable HttpStatus
+[ERROR]   location: class UsuarioController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/UsuarioController.java:[31,16] cannot find symbol
+[ERROR]   symbol:   variable ResponseEntity
+[ERROR]   location: class UsuarioController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/UsuarioController.java:[40,9] cannot find symbol
+[ERROR]   symbol:   class IniciarSesionCommand
+[ERROR]   location: class UsuarioController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/UsuarioController.java:[40,44] cannot find symbol
+[ERROR]   symbol:   class IniciarSesionCommand
+[ERROR]   location: class UsuarioController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/UsuarioController.java:[44,9] cannot find symbol
+[ERROR]   symbol:   class SesionResult
+[ERROR]   location: class UsuarioController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/adapters/controllers/UsuarioController.java:[45,16] cannot find symbol
+[ERROR]   symbol:   variable ResponseEntity
+[ERROR]   location: class UsuarioController
+[ERROR] /c:/Users/lbote/Videos/Analisis y Diseño 2/sistema/src/main/java/sistema_organizacion/sistema/entities/GrupoFamiliar.java:[31,23] cannot find symbol
+[ERROR]   symbol:   class NombreGrupoInvalidoException
+[ERROR]   location: class sistema_organizacion.sistema.entities.GrupoFamiliar
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
