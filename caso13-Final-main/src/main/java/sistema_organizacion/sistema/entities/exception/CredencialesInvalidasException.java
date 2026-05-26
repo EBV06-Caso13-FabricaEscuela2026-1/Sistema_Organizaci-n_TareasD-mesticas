@@ -1,0 +1,5 @@
+package sistema_organizacion.sistema.entities.exception;
+
+public class CredencialesInvalidasException extends RuntimeException {
+    public CredencialesInvalidasException(String mensaje) { super(mensaje); }
+}
